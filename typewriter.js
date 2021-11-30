@@ -4,7 +4,7 @@ const increment = 50
 
 for (let i of sentence) {
     setTimeout(() => {
-        console.log(i)              
+        process.stdout.write(i);           
     }, delay);
     delay += increment;
 } 
